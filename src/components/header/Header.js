@@ -28,7 +28,7 @@ const Header = () => {
       onChange={(e) => {
         i18n.changeLanguage(e.target.value)
       }}
-      style = {{width:"10%",backgroundColor:"#D9D9D9",border:"1px solid #FCB813"}} size="sm">
+      style = {{width:"10%",backgroundColor:"yellow",border:"1px solid #FCB813"}} size="sm">
         <option >Langues</option>
         <option value='ar'>AR</option>
         <option value='fr'>FR </option>
@@ -41,7 +41,7 @@ const Header = () => {
    
 
       <Navbar
-        style={{ height: '100px', backgroundColor: '#D9D9D9' }}
+        style={{ height: '100px', backgroundColor: 'whitesmoke' }}
         expand='lg'
       >
         <Container fluid>

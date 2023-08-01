@@ -12,7 +12,7 @@ const Footer = () => {
   const { t, i18n } = useTranslation()
 
   return (
-    <CDBModalFooter style={{ backgroundColor: '#D9D9D9' }} className='shadow'>
+    <CDBModalFooter style={{ backgroundColor: 'whitesmoke' }} className='shadow'>
       <CDBBox
         display='flex'
         alignItems='center'
