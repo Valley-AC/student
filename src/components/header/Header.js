@@ -92,7 +92,10 @@ const Header = () => {
               <Nav.Link href='#'>{t('nav5')}</Nav.Link>
             </Nav>
 
-            <Button variant='outline-dark'>{t('auth')}</Button>
+            <Button  variant='outline-dark'>
+            <Nav.Link href='/auth'> {t('auth')}</Nav.Link> 
+              
+              </Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
